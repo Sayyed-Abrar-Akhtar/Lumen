@@ -1,0 +1,5 @@
+<div class="page-width" style="padding:3rem 0">
+  <div class="section-header"><h2 class="h1">{{ section.settings.title | default: section.settings.heading | escape }}</h2></div>
+  <div class="rte">{{ section.settings.text }}</div>
+</div>
+{% schema %}{"name":"t:sections.testimonials.name","settings":[{"type":"text","id":"heading","default":"Testimonials","label":"Heading"},{"type":"text","id":"title","default":"Testimonials","label":"Title"},{"type":"richtext","id":"text","label":"Text"}],"presets":[{"name":"t:sections.testimonials.presets.name"}]}{% endschema %}
