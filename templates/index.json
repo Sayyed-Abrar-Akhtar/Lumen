@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "hero": { "type": "hero-slideshow", "settings": { "heading": "Welcome to Lumen", "subheading": "Modern essentials, thoughtfully designed", "button_label": "Shop collection" } },
+    "featured_collection": { "type": "featured-collection", "settings": { "title": "Featured products", "products_to_show": 8, "columns_desktop": 4 } },
+    "rich_text": { "type": "rich-text", "settings": {}, "blocks": { "heading": { "type": "heading", "settings": { "heading": "Talk about your brand" } }, "text": { "type": "text", "settings": {} } }, "block_order": ["heading", "text"] },
+    "image_with_text": { "type": "image-with-text", "settings": { "heading": "Our story", "layout": "image_first" } },
+    "multicolumn": { "type": "multicolumn", "settings": { "title": "Why shop with us", "columns_desktop": 3 }, "blocks": { "c1": { "type": "column", "settings": { "title": "Fast shipping", "text": "<p>Reliable delivery on every order.</p>" } }, "c2": { "type": "column", "settings": { "title": "Easy returns", "text": "<p>Hassle-free returns within 30 days.</p>" } }, "c3": { "type": "column", "settings": { "title": "Support", "text": "<p>Real humans when you need them.</p>" } } }, "block_order": ["c1", "c2", "c3"] },
+    "testimonials": { "type": "testimonials", "settings": {} },
+    "faq": { "type": "faq", "settings": {} },
+    "newsletter": { "type": "newsletter", "settings": { "heading": "Stay in the loop" } }
+  },
+  "order": ["hero", "featured_collection", "rich_text", "image_with_text", "multicolumn", "testimonials", "faq", "newsletter"]
+}
